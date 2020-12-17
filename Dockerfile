@@ -7,4 +7,4 @@ COPY requirements.txt /game/requirements.txt
 
 WORKDIR /game
 
-CMD ["pip3 install -r requirements.txt"]
+CMD ["pip3", "install", "-r", "requirements.txt"]
