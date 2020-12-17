@@ -7,5 +7,4 @@ COPY requirements.txt /game/requirements.txt
 
 WORKDIR /game
 
-ENTRYPOINT ["nosetests" , "--with-xunit"]
 CMD ["pip3 install -r requirements.txt"]
