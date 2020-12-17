@@ -7,4 +7,4 @@ COPY requirements.txt /game/requirements.txt
 
 WORKDIR /game
 
-Run "pip3 install -r requirements.txt"
+RUN pip3 install -r requirements.txt
