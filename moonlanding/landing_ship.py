@@ -32,7 +32,7 @@ class LandingShip(object):
 class FuelTank:
 
     def __init__(self):
-        self.percents_left = 101
+        self.percents_left = 100
     
     def use_fuel(self, percents):
         can_use = min(percents, self.percents_left)
