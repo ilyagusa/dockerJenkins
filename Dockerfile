@@ -7,6 +7,6 @@ COPY requirements.txt /game/requirements.txt
 
 WORKDIR /game
 
-RUN nosetests
+RUN "python3 nosetests"
 
 CMD ["pip3 install -r requirements.txt"]
